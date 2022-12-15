@@ -6,7 +6,7 @@ public class UniversityAdmission {
 	
 	
 	public boolean checkStudentForm6Notes(int form6Note) {
-		if(form6Note > 80 && form6Note <= 100) {
+		if(form6Note > 80 && form6Note < 100) {
 		
 			return true;
 		}
