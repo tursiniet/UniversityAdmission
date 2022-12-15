@@ -22,9 +22,9 @@ public class UniversityAdmission {
 		return checkStudentForm6Notes(form6Note) && checkSchoolFeesPaid();
 	}
 
-//	public int getForm6Note() {
-//		return form6Note;
-//	}
+	public int getForm6Note() {
+		return form6Note;
+	}
 
 	public void setForm6Note(int form6Note) {
 		this.form6Note = form6Note;
