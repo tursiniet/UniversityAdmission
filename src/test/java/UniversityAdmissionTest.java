@@ -87,31 +87,31 @@ public class UniversityAdmissionTest {
 	}
 	
 	
-//	//Decision Table -  checkAdmission()
-//
-//	@Test
-//	public void checkAdmission_DecisionTableTT() {
-//		UniversityAdmission testAdmissionDecisionTable = new UniversityAdmission();
-//		testAdmissionDecisionTable.setForm6Note(90);
-//		testAdmissionDecisionTable.setIsSchoolFeesPaid(true);
-//		Assertions.assertTrue(testAdmissionDecisionTable.checkUniversityAdmission());
-//	}
-//	
-//	@Test
-//	public void checkAdmission_DecisionTableTF() {
-//		UniversityAdmission testAdmissionDecisionTable = new UniversityAdmission();
-//		testAdmissionDecisionTable.setForm6Note(90);
-//		testAdmissionDecisionTable.setIsSchoolFeesPaid(false);
-//		Assertions.assertFalse(testAdmissionDecisionTable.checkUniversityAdmission());
-//	}
-//	
-//	@Test
-//	public void checkAdmission_DecisionTableFT() {
-//		UniversityAdmission testAdmissionDecisionTable = new UniversityAdmission();
-//		testAdmissionDecisionTable.setForm6Note(64);
-//		testAdmissionDecisionTable.setIsSchoolFeesPaid(true);
-//		Assertions.assertFalse(testAdmissionDecisionTable.checkUniversityAdmission());
-//	}
+	//Decision Table -  checkAdmission()
+
+	@Test
+	public void checkAdmission_DecisionTableTT() {
+		UniversityAdmission testAdmissionDecisionTable = new UniversityAdmission();
+		testAdmissionDecisionTable.setForm6Note(90);
+		testAdmissionDecisionTable.setIsSchoolFeesPaid(true);
+		Assertions.assertTrue(testAdmissionDecisionTable.checkUniversityAdmission());
+	}
+	
+	@Test
+	public void checkAdmission_DecisionTableTF() {
+		UniversityAdmission testAdmissionDecisionTable = new UniversityAdmission();
+		testAdmissionDecisionTable.setForm6Note(90);
+		testAdmissionDecisionTable.setIsSchoolFeesPaid(false);
+		Assertions.assertFalse(testAdmissionDecisionTable.checkUniversityAdmission());
+	}
+	
+	@Test
+	public void checkAdmission_DecisionTableFT() {
+		UniversityAdmission testAdmissionDecisionTable = new UniversityAdmission();
+		testAdmissionDecisionTable.setForm6Note(64);
+		testAdmissionDecisionTable.setIsSchoolFeesPaid(true);
+		Assertions.assertFalse(testAdmissionDecisionTable.checkUniversityAdmission());
+	}
 	
 
 }
